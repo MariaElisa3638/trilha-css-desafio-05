@@ -6,3 +6,8 @@ Requisão HTTP: URL: "https://" e Request Method (GET,POST,PUT)
 GET:buscar
 POST:inserir
 PUT: atualizar
+
+
+Response Headers
+    Configuração
+    
