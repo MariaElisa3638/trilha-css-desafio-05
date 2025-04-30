@@ -4,32 +4,20 @@
 }
 
 .content {
+    height: 100vw;
+    width: 100vh;
     padding: 1rem;
+    background-color: #fff;
+   
 }
-
+@media screen and (min-width: 992px) {
+    .content {
+        max-width:992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }   
+}
 .content h1 {
     margin: 0;
-}
-
-ol.pokemons {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.pokemon {
-    display: flex;
-    flex-direction: column;
-    margin: 0.5rem;
-    padding: 2rem 1rem;
-    border-radius: 1rem;
-    background-color: #14a06f;
-    color: white;
-}
-
-.pokemon details img {
-    max-width: 100%;
-    height: 100px;
 }
