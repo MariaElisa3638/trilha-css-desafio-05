@@ -7,7 +7,6 @@ GET:buscar
 POST:inserir
 PUT: atualizar
 
-
 Response Headers
     Configuração
     
